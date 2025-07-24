@@ -58,9 +58,12 @@ When running the frontend locally, you won't have access to the deployed backend
 Without these steps, API requests (fetch calls) from the frontend will fail due to missing backend and database access.
 
 ### Instalation and starting
-`git clone https://github.com/yourusername/plant-manager-frontend.git`
-`cd plant-manager-frontend`
+`git clone https://github.com/Tesa44/gardener-frontend.git`
+
+`cd gardener-frontend`
+
 `npm install`
+
 `npm run dev`
 
 ## Enviroment
