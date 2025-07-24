@@ -10,6 +10,11 @@ https://gardener-frontend.vercel.app
 It communicates with the backend API deployed on Render:
 https://gardener-backend-owo6.onrender.com
 
+## Mockup
+Click the link to view the design mockup in Figma
+
+https://www.figma.com/design/jBRePT97jL62dJr8FT4w5U/Untitled?node-id=0-1&m=dev&t=91xnsG5ra40d6NSi-1
+
 ## Features
 -User authentication (login/logout) with JWT token handling
 
