@@ -22,7 +22,7 @@ function TopBar({ onSortChange, sortOption, onSearchChange, searchQuery }) {
           <option value="date-oldest">Oldest First</option>
           <option value="date-newest">Newest First</option>
         </select>
-        <Link to="/add-plant" className={styles.addButton}>
+        <Link to="add-plant" className={styles.addButton}>
           + Add Plant
         </Link>
       </div>

@@ -13,10 +13,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home></Home>}></Route>
-          <Route path="register" element={<Register></Register>}></Route>
-          <Route path="login" element={<Login></Login>}></Route>
+          <Route path="/register" element={<Register></Register>}></Route>
+          <Route path="/login" element={<Login></Login>}></Route>
           <Route
-            path="app"
+            path="/app"
             element={
               <ProtectedRoute>
                 <AppLayout></AppLayout>
