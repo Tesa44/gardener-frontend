@@ -1,0 +1,50 @@
+.container {
+  padding: 40px;
+  font-family: sans-serif;
+  /* background: #f9fbfd; */
+  background-color: #eee;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.header p {
+  color: #666;
+  margin-bottom: 2.4rem;
+  font-size: 1.6rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.pages button {
+  margin: 0 4px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+}
+
+.pages .active {
+  background: #0d0d0d;
+  color: white;
+}
+
+.message {
+  font-size: 2.4rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  color: #555;
+}

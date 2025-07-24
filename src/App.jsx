@@ -6,6 +6,7 @@ import AppLayout from "./pages/AppLayout";
 import AddPlant from "./pages/AddPlant";
 import { AuthProvider } from "./contexts/AuthContext";
 import ProtectedRoute from "./pages/ProtectedRoute";
+import MainAppView from "./components/MainAppView";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               </ProtectedRoute>
             }
           >
+            <Route index element={<MainAppView></MainAppView>}></Route>
             <Route path="add-plant" element={<AddPlant></AddPlant>}></Route>
           </Route>
         </Routes>
