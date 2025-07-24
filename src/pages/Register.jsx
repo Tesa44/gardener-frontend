@@ -1,6 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./Register.module.css";
 import { useState } from "react";
+import { BASE_URL } from "../../config";
 
 function Register() {
   const [name, setName] = useState("");
@@ -39,7 +40,7 @@ function Register() {
     }
     setErrMessage("");
     try {
-      const res = await fetch("http://localhost:8000/users/register", {
+      const res = await fetch(`${BASE_URL}/users/register`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
